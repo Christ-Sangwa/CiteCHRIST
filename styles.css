@@ -1,0 +1,378 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+header{
+    height: 100px;
+}
+h1{
+    /* text-align: center; */
+    margin-left: 70px;
+    color: teal;
+    font-size: 58px;
+}
+.parcours{
+    color: rgb(20, 146, 204);
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+}
+sup{
+    color: rgb(8, 99, 141);
+    text-shadow: rgb(24, 165, 66) 4px 7px 9px;
+}
+nav{
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgba(50, 93, 150, 0.438);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style-type: none;
+    padding: 20px 60px;
+    display: inline-block;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-Qui:hover{
+    border-top: 5px solid red;
+    background-color: rgba(20, 146, 204, 0.486);
+}
+.menu-Etu:hover{
+    border-top: 5px solid rgb(38, 0, 255);
+    background-color: rgba(25, 226, 68, 0.486);
+}
+.menu-Accu:hover{
+    border-top: 5px solid rgb(0, 255, 34);
+    background-color: rgba(226, 25, 199, 0.486);
+}
+nav li:hover{
+    padding: 15px 60px 20px 60px;
+}
+.navig0{
+    display: table;
+    margin: 0 auto;
+}
+.A0{
+    height: 550px;
+    background-color: none;
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+footer{
+    background-color: darkgray;
+    color: rgb(24, 23, 23);
+    height: 100px;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 10px;
+    /* margin-top: 10px; */
+}
+
+/*JE TRAITE LES DEUX DIVS DE LA PAGE CEPHAS_BIN_JESUS*/
+
+.sec{
+    width: 80%;
+    height: 450px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.left{
+    width: 47%;
+    height: 50%;
+    background-color: none;
+    float: left;
+    border-right: cadetblue solid 2px;
+    margin-right: 24px;
+    text-align: center;
+    padding-top: 60px;
+    padding-right: 10px;
+    margin-top: 6%;
+}
+.right{
+    width: 47%;
+    height: 100%;
+    background-color: none;
+    float: left;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: rgba(55, 119, 103, 0.918) 1px 1px 50px 1px;
+}
+p{
+    font-size: 20px;
+}
+span{
+    color: rgb(46, 199, 140);
+}
+
+/* A PARTIR D'ICI JE TRAITE LA PAGE QUI SUI-JE ? */
+/*LA PREMIERE SECTION MA BIOGRAPHIE */
+.A{
+    height: 550px;
+    background-color: none;
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    z-index: 100;
+}
+.seco{
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: none;
+}
+
+.gauche{
+    width: 55%;
+    height: 450px;
+    background-color: none;
+    float: left;
+    border-right: cadetblue solid 2px;
+    margin-right: 24px;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 10px;
+    margin-top: 0%;
+}
+.droite{
+    width: 37%;
+    height: 100%;
+    background-color: none;
+    float: left;
+}
+.gauche >p{
+    font-size: 20px;
+    float: left;
+    clear: both;
+}
+.droite >p{
+    font-size: 20px;
+    float: left;
+    clear: both;
+}
+
+/* JE TRAITE LA DEUXIEUME SECTION DE QUI SUIS-JE? */
+/* Mes parent */
+.AA{
+    height: 100%;
+    background-color: none;
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    z-index: 100;
+}
+.seco0{
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: none;
+}
+.gauche0{
+    width: 55%;
+    height: 50%;
+    background-color: none;
+    float: left;
+    border-right: cadetblue solid 2px;
+    margin-right: 24px;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 10px;
+    margin-top: 0%;
+}
+.droite0{
+    width: 37%;
+    height: 50%;
+    background-color: none;
+    float: left;
+}
+.gauche0 >p{
+    font-size: 20px;
+    float: left;
+    clear: both;
+}
+.droite0 >p{
+    font-size: 20px;
+    float: left;
+    clear: both;
+}
+/* LE TITRE OU EN-TETE */
+h2{
+    text-align: center;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+.titre, .titre1, .titre2{
+    background-color: teal;
+}
+
+/* ICI JE TRAITE LA TROISIEME SECTION DE LA PAGE QUI SUIS-JE ? */
+/* FAMILLE ET MEMBRES */
+
+.AAA{
+    height: 550px;
+    background-color: none;
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    z-index: 100;
+}
+.seco1{
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: none;
+}
+
+.gauche1{
+    width: 55%;
+    height: 450px;
+    background-color: none;
+    float: left;
+    border-right: cadetblue solid 2px;
+    margin-right: 24px;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 10px;
+    margin-top: 0%;
+}
+.droite1{
+    width: 37%;
+    height: 100%;
+    background-color: none;
+    float: left;
+}
+.gauche1 >p{
+    font-size: 20px;
+    float: left;
+    clear: both;
+}
+.droite1 >p{
+    font-size: 20px;
+    float: left;
+    clear: both;
+}
+/* ICI JE TRAITE LA PAGE MON PARCOURS SCOLAIRE */
+
+.AAAA{
+    height: 550px;
+    background-color: none;
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    z-index: 100;
+}
+.seco2{
+    width: 95%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: none;
+}
+
+.gauche2{
+    width: 45%;
+    height: 450px;
+    background-color: none;
+    float: left;
+    border-right: cadetblue solid 2px;
+    margin-right: 24px;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 10px;
+    margin-top: 0%;
+}
+.droite2{
+    border-right: cadetblue solid 2px;
+    width: 24%;
+    height: 100%;
+    background-color: none;
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.droite3{
+    width: 24%;
+    height: 100%;
+    background-color: none;
+    float: left;
+}
+.gauche2 >p{
+    font-size: 20px;
+    float: left;
+    clear: both;
+}
+.droite2 >p{
+    font-size: 20px;
+    float: left;
+    clear: both;
+}
+/* ICI JE TRAITE DE LA PARTIE DROITE OU IL Y A DES DATES, DANS LA PAGE MON PARCOURS SCOLAIRE
+JUSTE A COTE DE LA VIDEO */
+.date{
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+}
+.date1{
+    color: black;
+    text-align: center;
+    clear: both;
+    margin-bottom: 0;
+}
+/* CECI M'A PERMIS DE BIEN CADRER LA VIDEO DANS LA DIV OU JE L'AI MISE */
+.vid{
+    width: 100%;
+    height: 100%;
+}
+/* ICI C'EST POUR LA PHOTO QUI S'AFFICHE AVANT LA VISUALISATION DE LA VIDEO */
+poster{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
